@@ -7,7 +7,7 @@ from libX import libx
 
 # COMMAND ----------
 
-help(libx)
+#help(libx)
 
 # COMMAND ----------
 
