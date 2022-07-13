@@ -1,7 +1,10 @@
 # Databricks notebook source
-import libX as l
-
+from libX import libx
 
 # COMMAND ----------
 
-libx.greet()
+help(libx)
+
+# COMMAND ----------
+
+libx.libx.greet()

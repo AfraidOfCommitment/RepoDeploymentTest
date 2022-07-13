@@ -1,3 +1,4 @@
-class libx:
-    def greet(self):
-        print('Hello')
+#!/bin/bash/python
+
+def greet(self):
+  print('Hello')
