@@ -3,8 +3,20 @@ from libX import libx
 
 # COMMAND ----------
 
+
+
+# COMMAND ----------
+
 help(libx)
 
 # COMMAND ----------
 
-libx.libx.greet()
+
+
+# COMMAND ----------
+
+libx.greet("X")
+
+# COMMAND ----------
+
+

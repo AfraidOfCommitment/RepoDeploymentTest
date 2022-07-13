@@ -1,4 +1,4 @@
 #!/bin/bash/python
 
-def greet(self):
-  print('Hello')
+def greet(name='X'):
+  print('Hello'+name)
