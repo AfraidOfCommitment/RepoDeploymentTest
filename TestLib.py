@@ -23,15 +23,12 @@ def testPandas(raw_text: pd.Series) -> pd.Series:
 
 # COMMAND ----------
 
-example_data=('entry1','1'),('entry2','2')
-data=sc.parallelize(example_data)
-columns = ['txt','id']
-df = data.toDF(columns)
+df = spark.read.csv('dbfs:/DemoData/stock_data/company_list/exchange=amex/')
 display(df)
 
 # COMMAND ----------
 
-df=df.withColumn("added_libx",testPandas(df["txt"]))
+df=df.withColumn("added_libx",testPandas(df["_c0"]))
 display(df)
 
 
