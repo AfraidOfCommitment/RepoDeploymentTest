@@ -1,3 +1,3 @@
 #!/bin/bash/python
-def greet(name='X'):
-  print('Hello'+name)
+def getText():
+  return '_libx_added_'
